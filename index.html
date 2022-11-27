@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My first website</title>
+    <link rel="stylesheet" href="DefStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>    
+
+<body id = "mainbody">
+    <h1 align = "center">THIS IS MY FIRST WEBSITE</h1>
+    <a href="page2.html" target="_self" title="Go to page 2">
+        page 2
+    </a>
+    <h2 >Table </h2>
+    <table bgcolor="black" id="ta">
+        <tr bgcolor = "grey">
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+            <th>satday</th>
+            <th>sunday</th>
+        </tr>
+
+        <tr bgcolor = "lightgrey" align="center">
+           <td> 9-5</td>
+           <td> 9-5</td>
+           <td> 9-5</td>
+           <td> 9-5</td>
+           <td> 9-5</td>
+           <td  style="color: red;"> CLOSED</td>
+           <td style="color: red;"> CLOSED</td>
+        </tr>
+    </table>
+    <a href="bing.html" target="_self" title="Go to BING" >
+        <button style="background-color: black; color: green;border-radius: 5px;" height= "100"width = "100">BING</button>
+    </a>
+
+   <br>
+    <button onclick="funn()" ondblclick="fun()" oncl>Change</button>
+
+    <h2 id="test"> HELLO</h2>
+    <script>
+        function funn(){
+            document.getElementById("test").innerHTML = "BYE";
+            
+        }
+        function fun(){
+            document.getElementById("test").innerHTML = "HELLO";
+
+        }
+    </script>
+    <a href="forms.html">
+        <button >FORMS</button>
+    </a>
+    
+    <bsr>
+
+    <a href="css.html">
+        <button>CSS</button>
+    </a>
+
+    <br>
+
+    <a href="page3.html">
+        <button>PAGE3</button>
+    </a>
+    <a href="pos.html">
+        <button>POS</button>
+    </a>
+    <br>
+    <a href="anim.html">
+        <button>ANIMATIONS</button>
+    </a>
+
+
+</body>  
+</html>

@@ -1,0 +1,179 @@
+body{
+    
+    background-color: rgb(147, 130, 130);
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+}
+
+#mainbody{
+    background-image: url("imgs/logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: black;
+    font-family: "Press Start 2P";
+}
+h2{
+    color:black;
+    font-family: "Press Start 2P";
+}
+p{
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: large;
+    font-style: italic;
+}
+
+#p1{
+    font-family: "Press Start 2P";
+    color: red;
+}
+
+.try2{
+    border-style: outset;
+    border-radius: 10px;
+    border-color: gold;
+    background: linear-gradient(to right, skyblue , lightgreen);
+    color:black;
+    padding: 5px;
+}
+button{
+    font-family: "Press Start 2P";
+}
+#arth{
+    float: right;
+}
+#test1{
+    clear: both;
+}
+td{
+    color: green;
+}
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: red;
+    position: absolute;
+    top:100px;
+    left: 100px;
+}
+
+#box3{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    background-color: green;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+#home{
+    
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 125px;
+    right: 125px;
+}
+button:hover{
+    background-color: darkgray;
+    color: green;
+}
+
+a:hover{
+    color: green;
+}
+a{
+    font-size: 50px;
+}
+li:nth-child(odd){
+    background-color: skyblue;
+}
+li:nth-child(even){
+    background-color: powderblue;
+}
+ol{
+    width: 500px;
+}
+p::first-letter{
+    font-size: 50px;
+    font-style: italic;
+}
+#ta{
+    text-shadow: none;
+}
+#anibox{
+    text-shadow: none;
+    width: 400px;
+    text-align: center;
+    font-size: 90px;
+    height: 400px;
+    border: 5px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 5px;
+    background: rgb(27, 199, 142);
+    animation: run;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#anibox2{
+    text-shadow: none;
+    width: 400px;
+    text-align: center;
+    font-size: 90px;
+    height: 400px;border: 5px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 5px;
+    background: rgb(27, 199, 142);
+    animation: run2;
+    animation-duration: 5s;    animation-iteration-count: infinite;
+
+}
+#anibox3{
+    text-shadow: none;
+    width: 400px;
+    text-align: center;
+    font-size: 90px;
+    height: 400px;border: 5px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 5px;
+    background: rgb(27, 199, 142);
+    animation: run3;
+    animation-duration: 5s;    animation-iteration-count: infinite;
+
+}
+@keyframes run{
+    from{margin-left:100%;}
+    to{margin-right: 0%;}
+}
+@keyframes run2{
+    from{margin-left:100%;}
+    to{margin-right: 0%;}
+    0%{transform: rotateZ(-360deg);}
+    
+}
+@keyframes run3{
+    from{margin-left:100%;}
+    to{margin-right: 0%;}
+    0%{transform: scale(0.5,0.5);}
+    
+}
+
+
